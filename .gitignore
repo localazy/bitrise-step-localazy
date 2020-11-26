@@ -3,5 +3,6 @@
 
 # Bitrise stuff
 .bitrise*
+bitrise-steplib
 _tmp/*
 
