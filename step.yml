@@ -1,8 +1,10 @@
 title: Localazy CLI
-summary: Install Localazy CLI and download updated translations
+summary: Runs Localazy CLI and download updated translations
 
 description: |-
-  This step runs a `wti pull` after installing the web translate it gem. You need an account on https://webtranslateit.com to be able to run this step.
+  This step runs [Localazy CLI](https://localazy.com/docs/cli) and download updated translations.
+  [Localazy](https://localazy.com) is a translation management platform built by developers for developers 
+  to localize apps in the modern way. 
 
 website: https://localazy.com
 
