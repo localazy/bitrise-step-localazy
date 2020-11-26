@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 # Get the full path to Localazy JAR.
 step_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd )"
 localazy_jar=$step_dir"/localazy.jar"
@@ -37,7 +39,7 @@ if [ ! -z "${custom_command}" ]; then
 fi
 
 # Switch to working directory.
-cd working_directory
+cd $working_directory
 
 # Invoke Localazy CLI.
 java -jar $localazy_jar $params
