@@ -8,7 +8,7 @@ website: https://localazy.com
 
 source_code_url: https://github.com/localazy/bitrise-step-localazy
 
-support_url: https://localazy.com/docs/cli
+support_url: https://github.com/localazy/bitrise-step-localazy/issues
 
 project_type_tags:
   - ios
