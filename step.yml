@@ -18,7 +18,7 @@ type_tags:
 deps:
   brew:
   - name: java
-  apt:
+  apt_get:
   - name: openjdk-11-jre
 
 is_requires_admin_user: false
